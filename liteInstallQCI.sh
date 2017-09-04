@@ -46,7 +46,7 @@ fi
 
 cd IBMQuantumExperienceSDK/qiskit-sdk-py
 
-source activate QISKitenv
+#source activate QISKitenv
 
 make env
 
