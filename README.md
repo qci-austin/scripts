@@ -46,6 +46,7 @@ Install Ubuntu 16.04 using Virtual Box or the environment of your choice, making
 Step 1: Update package sources and your system by running the following terminal commands:
 
 sudo apt-get update
+
 sudo apt-get install
 
 Step 2: If not already installed, install git
@@ -54,16 +55,16 @@ sudo apt-get install git
 and then set up your git credentials, which include your username and email address. More information can be found at:
 https://help.github.com/articles/setting-your-username-in-git/
 
-Step 2: Make a workspace folder and then cd into that folder. Clone the qci script repository via the following command:
+Step 3: Make a workspace folder and then cd into that folder. Clone the qci script repository via the following command:
 git clone https://github.com/qci-austin/scripts.git
 
-Step 3: Visit the IBM Quantum Experience website and make an account to receive your API token. This is how your quantum computations are validated with the IBM's quantum platform. 
+Step 4: Visit the IBM Quantum Experience website and make an account to receive your API token. This is how your quantum computations are validated with the IBM's quantum platform. 
 https://quantumexperience.ng.bluemix.net/qx/community
 
-Step 3: Run the installation script with the following command using your API token (do not include the angle brackets in the command):
+Step 5: Run the installation script with the following command using your API token (do not include the angle brackets in the command):
 sudo -H ./liteInstallQCI.sh <API token>
 
-Step 4: You are done. After a brief pause, your web browser should open with a Jupyter Notebook interface. This is a web based Python containerization. More information is available on the IBM QX github page at https://github.com/jupyter/notebook. 
+Step 6: You are done. After a brief pause, your web browser should open with a Jupyter Notebook interface. This is a web based Python containerization. More information is available on the IBM QX github page at https://github.com/jupyter/notebook. 
 
 If you see the message "QISkit lite installed successfully!" with no other error messages, then the script ran successfully. The script includes basic error handling, so pay attention to those messages in order to troubleshoot any problems.
 
