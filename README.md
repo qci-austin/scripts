@@ -50,6 +50,7 @@ sudo apt-get update
 sudo apt-get install
 
 Step 2: If not already installed, install git
+
 sudo apt-get install git
 
 and then set up your git credentials, which include your username and email address. More information can be found at:
@@ -62,7 +63,8 @@ Step 4: Visit the IBM Quantum Experience website and make an account to receive 
 https://quantumexperience.ng.bluemix.net/qx/community
 
 Step 5: Run the installation script with the following command using your API token (do not include the angle brackets in the command):
-sudo -H ./liteInstallQCI.sh <API token>
+
+sudo -H ./liteInstallQCI.sh \<API token\>
 
 Step 6: You are done. After a brief pause, your web browser should open with a Jupyter Notebook interface. This is a web based Python containerization. More information is available on the IBM QX github page at https://github.com/jupyter/notebook. 
 
