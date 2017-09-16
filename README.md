@@ -20,6 +20,21 @@ We gratefully thank the IBM Quantum Experience team and the quantum researchers 
 Our thanks also goes to Dr. Scott Aaronson and doctoral student Patrick Rall. They have been invaluable in providing continual support and insight to the field of Quantum Computing. We would not be able to do what we do without them. 
 
 
+QCI Officers
+
+Bryce Fuller - President
+
+Brendan Ngo - Vice President
+
+Patrick Rall - Graduate Advisor
+
+Will Orr - Head of Web Development
+
+Brenden McDonough - Head of Logistics
+
+Reid Wyde - Head of Software Development
+
+
 RUNNING THE INSTALLATION
 
 IBM QX provides a Python wrapper API for running computations on their quantum computers based in New York. Our script installs the necessary package dependencies and Quantum Information Science toolkit that IBM has created. 
@@ -59,7 +74,7 @@ https://help.github.com/articles/setting-your-username-in-git/
 Step 3: Make a workspace folder and then cd into that folder. Clone the qci script repository via the following command:
 git clone https://github.com/qci-austin/scripts.git
 
-Step 4: Visit the IBM Quantum Experience website and make an account to receive your API token. This is how your quantum computations are validated with the IBM's quantum platform. 
+Step 4: Visit the IBM Quantum Experience website and make an account to receive your API token. This is how your quantum computations are validated with the IBM\'s quantum platform. 
 https://quantumexperience.ng.bluemix.net/qx/community
 
 Step 5: Run the installation script with the following command using your API token (do not include the angle brackets in the command):
