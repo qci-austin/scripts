@@ -36,7 +36,7 @@ sudo apt-get install git
 
 git clone https://github.com/qci-austin/scripts.git
 
-sudo -H ./liteInstallQCI.sh <API token>
+sudo -H ./liteInstallQCI.sh \<API token\>
 
 Detailed Instructions:
 
