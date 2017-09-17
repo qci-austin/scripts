@@ -113,29 +113,4 @@ This script does not install Conda, Anaconda, or miniconda.
 If you have questions or comments please contact Reid Wyde at 
 reidwyde@gmail.com 
 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
