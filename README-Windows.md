@@ -35,7 +35,9 @@ Brenden McDonough - Head of Logistics
 Reid Wyde - Head of Software Development
 
 
-RUNNING THE INSTALLATION (for Windows)
+RUNNING THE INSTALLATION (for Windows):
+
+WARNING: THIS SCRIPT CONTAINS MINIMAL ERROR CHECKING AND IS STILL UNDER HEAVY DEVELOPMENT 
 
 Step 0:
 
@@ -69,7 +71,7 @@ Move the installQCIWindows.bat file to a clean directory
 
 Step 4: 
 
-Run the installation by opening up an Anaconda prompt (a special version of command prompt) and type the following command (without angle brackets):
+Run the installation by starting an Anaconda prompt by right clicking and running as administrator. Type the following command (without angle brackets):
 
 installQCIWindows.bat \<API Token\> 
 
@@ -96,14 +98,5 @@ jupyter notebook
 
 
 
+If you have any questions or comments, please contact Reid Wyde at reidwyde@gmail.com
 
-
-
-
-
-
-
-
-
-
- 
