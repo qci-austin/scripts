@@ -35,7 +35,7 @@ Brenden McDonough - Head of Logistics
 Reid Wyde - Head of Software Development
 
 
-RUNNING THE INSTALLATION
+RUNNING THE INSTALLATION for Linux (liteInstallQCI.sh)
 
 IBM QX provides a Python wrapper API for running computations on their quantum computers based in New York. Our script installs the necessary package dependencies and Quantum Information Science toolkit that IBM has created. 
 

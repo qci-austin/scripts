@@ -11,6 +11,7 @@ echo.config = {"url": 'https://quantumexperience.ng.bluemix.net/api'}>> Qconfig.
 echo.if 'APItoken' not in locals(): >> Qconfig.py
 echo.	raise Exception("Please set up your access token. See Qconfig.py.") >> Qconfig.py
 conda install -y jupyter
+echo "QCI installed successfully"
 jupyter notebook 
 
 
